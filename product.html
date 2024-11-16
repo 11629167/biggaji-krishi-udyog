@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Biggaji Krishi Udyog</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f9fc;
+        }
+
+        header {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+
+
+        .products-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .product-card h3 {
+            color: #4CAF50;
+            margin: 10px 0;
+        }
+
+        .product-card p {
+            font-size: 16px;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        .product-card button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .product-card button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Our Products</h1>
+        <p>Explore our high-quality product</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="product.html">Products</a>
+        <a href="aboutbku.html">About Us</a>
+        <a href="contactbku.html">Contact</a>
+    </nav>
+   
+
+    <div class="products-container">
+        <div class="product-card">
+            <img src="CHAL.jpg" alt="Groundnut Digger">
+            <h3>GROUNDNUT DIGGER</h3>
+            <p>High-quality Groundnut Digger designed for farming operations.</p>
+            <button onclick="window.location.href='chal.html'">Learn More</button>
+        </div>
+
+        <div class="product-card">
+            <img src="sariya.jpg" alt="TMT BAR">
+            <h3>Tmt-Bar</h3>
+            <p>High-quality and durable TMT BAR for construction.</p>
+            <button onclick="window.location.href='ironrod.html'">Learn More</button>
+        </div>
+
+        <div class="product-card">
+            <img src="apipe.jpeg" alt="Pipes">
+            <h3>pipes</h3>
+            <p>Structural Steel Tubes & Steel Pipes.</p>
+            <button onclick="window.location.href='pipe.html'">Learn More</button>
+        </div>
+
+        <div class="product-card">
+            <img src="hrsheet.jpg" alt="HR Sheet">
+            <h3>HR Sheets</h3>
+            <p>High-quality hot-rolled sheets for multipurpose agricultural applications.</p>
+            <button onclick="window.location.href='hrsheet.html'">Learn More</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Biggaji Krishi Udyog. All rights reserved.</p>
+    </footer>
+
+    
+
+</body>
+</html>
